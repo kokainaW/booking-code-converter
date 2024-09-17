@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Code Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Booking Code Converter</h1>
+    <form id="conversionForm">
+        <label for="sourceCode">Source Code:</label>
+        <input type="text" id="sourceCode" name="sourceCode" required>
+        <label for="sourceSite">Source Site:</label>
+        <input type="text" id="sourceSite" name="sourceSite" required>
+        <label for="targetSite">Target Site:</label>
+        <input type="text" id="targetSite" name="targetSite" required>
+        <button type="submit">Convert</button>
+    </form>
+    <h2>Converted Code:</h2>
+    <p id="result"></p>
+    <script src="app.js"></script>
+</body>
+</html>
+
